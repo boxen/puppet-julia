@@ -2,8 +2,6 @@
 
 Installs the [Julia programming language](http://julialang.org/)
 
-A great module has a working travis build
-
 [![Build Status](https://travis-ci.org/JustinTulloss/puppet-julia.png?branch=master)](https://travis-ci.org/JustinTulloss/puppet-julia)
 
 ## Usage
