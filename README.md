@@ -8,6 +8,9 @@ Installs the [Julia programming language](http://julialang.org/)
 
 ```puppet
 include julia
+
+# install the Gadfly package
+julia::package { 'Gadfly': }
 ```
 
 ## Specifying a version
