@@ -1,17 +1,7 @@
 # Julia for Boxen
 
-Installs the [Julia programming language](http://julialang.org/)
+Deprecated in favour of [brewcask][1] and [Boxen's in built support for
+homebrew/brewcask][2].
 
-[![Build Status](https://travis-ci.org/JustinTulloss/puppet-julia.png?branch=master)](https://travis-ci.org/JustinTulloss/puppet-julia)
-
-## Usage
-
-```puppet
-include julia
-```
-
-## Specifying a version
-
-```puppet
-class { 'julia': version => '0.3.0-prerelease' }
-```
+[1]: https://caskroom.github.io/
+[2]: https://github.com/boxen/puppet-boxen/blob/master/manifests/personal.pp#L14-L17
